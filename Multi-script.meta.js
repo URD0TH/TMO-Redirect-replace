@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name TMO-Redirect-replace
 // @namespace https://github.com/URD0TH/TMO-Redirect-replace
-// @version 2.6.3.2.4
+// @version 2.6.3.2.5
 // @description Quiero Ver Mi MANGA!!!!
 // @author IRhoAias y URD0TH
 // @updateURL https://github.com/URD0TH/TMO-Redirect-replace/raw/main/Multi-script.meta.js
@@ -39,6 +39,7 @@
 // @match https://*.mygamesinfo.com/*
 // @match https://*.recipesist.com/*
 // @match https://*.animalsside.com/*
+// @match https://*.recetasdelupita.com/*
 // ==/UserScript==
  
 if (window.top !== window.self) //Corre en 2do plano, SOLAMENTWE si tienes el navegador en 1er plano,
@@ -122,5 +123,8 @@ if (currentURL.match("recipesist.com/news")) {
 };
 if (currentURL.match("animalsside.com/news")) {
 	location.href = location.href.replace("animalsside.com/news", "lectortmo.com/viewer");
+};
+if (currentURL.match("recetasdelupita.com/news")) {
+	location.href = location.href.replace("recetasdelupita.com/news", "lectortmo.com/viewer");
 };
 // end of script
