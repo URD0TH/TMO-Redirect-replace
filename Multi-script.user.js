@@ -7,7 +7,7 @@
 // @updateURL https://github.com/URD0TH/TMO-Redirect-replace/raw/main/Multi-script.meta.js
 // @downloadURL https://github.com/URD0TH/TMO-Redirect-replace/raw/main/Multi-script.user.js
 // @namespace     https://github.com/URD0TH
-// @supportURL    https://github.com/URD0TH/Multi-script-Para-TMO/issues
+// @supportURL    https://github.com/URD0TH/TMO-Redirect-replace/issues
 // @connect *
 // @grant GM.getResourceUrl
 // @grant GM_xmlhttpRequest
