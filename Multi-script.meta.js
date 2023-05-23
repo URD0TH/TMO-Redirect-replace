@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name Multi-script Para TMO
-// @namespace https://github.com/URD0TH/Multi-script-Para-TMO
-// @version 2.6.3.2.2
+// @namespace https://github.com/URD0TH/TMO-Redirect-replace
+// @version 2.6.3.2.3
 // @description Quiero Ver Mi MANGA!!!!
 // @author IRhoAias y URD0TH
-// @updateURL https://github.com/URD0TH/Multi-script-Para-TMO/raw/main/Multi-script.user.js
-// @downloadURL https://github.com/URD0TH/Multi-script-Para-TMO/blob/main/Multi-script.user.js
+// @updateURL https://github.com/URD0TH/TMO-Redirect-replace/raw/main/Multi-script.meta.js
+// @downloadURL https://github.com/URD0TH/TMO-Redirect-replace/raw/main/Multi-script.user.js
 // @namespace     https://github.com/URD0TH
 // @supportURL    https://github.com/URD0TH/Multi-script-Para-TMO/issues
 // @connect *
