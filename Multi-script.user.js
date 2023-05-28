@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name TMO-Redirect-replace
 // @namespace https://github.com/URD0TH/TMO-Redirect-replace
-// @version 2.6.3.2.7
+// @version 2.6.3.2.8
 // @description Quiero Ver Mi MANGA!!!!
 // @author IRhoAias y URD0TH
 // @updateURL https://github.com/URD0TH/TMO-Redirect-replace/raw/main/Multi-script.meta.js
@@ -42,6 +42,7 @@
 // @match https://*.recetasdelupita.com/*
 // @match https://*.cocinaconlupita.com/*
 // @match https://*.anitirion.com/*
+// @match https://*.paleomotor.com/*
 // ==/UserScript==
  
 if (window.top !== window.self) //Corre en 2do plano, SOLAMENTWE si tienes el navegador en 1er plano,
@@ -134,6 +135,10 @@ if (currentURL.match("cocinaconlupita.com/news")) {
 };
 if (currentURL.match("anitirion.com/news")) {
             location.href = location.href.replace("anitirion.com/news", "lectortmo.com/viewer");
+        };
+        
+if (currentURL.match("paleomotor.com/news")) {
+            location.href = location.href.replace("paleomotor.com/news", "lectortmo.com/viewer");
         };
         
 // end of script
