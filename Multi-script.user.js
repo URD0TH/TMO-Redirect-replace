@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name TMO-Redirect-replace
 // @namespace https://github.com/URD0TH/TMO-Redirect-replace
-// @version 2.6.3.2.10
+// @version 09092023205618
 // @description Quiero Ver Mi MANGA!!!!
 // @author IRhoAias y URD0TH
 // @updateURL https://github.com/URD0TH/TMO-Redirect-replace/raw/main/Multi-script.meta.js
@@ -45,6 +45,9 @@
 // @match https://*.paleomotor.com/*
 // @match https://*.animalslegacy.com/*
 // @match https://*.fitfooders.com/*
+// @match https://*.cocinarporelmundo.com/*
+// @match https://*.test.cl/*
+// @match https://*.test1.cl/*
 // ==/UserScript==
  
 if (window.top !== window.self) //Corre en 2do plano, SOLAMENTWE si tienes el navegador en 1er plano,
@@ -151,4 +154,16 @@ if (currentURL.match("fitfooders.com/news")) {
             location.href = location.href.replace("fitfooders.com/news", "lectortmo.com/viewer");
         };
         
+if (currentURL.match("cocinarporelmundo.com/news")) {
+                location.href = location.href.replace("cocinarporelmundo.com/news", "lectortmo.com/viewer");
+            };
+            
+if (currentURL.match("test.cl/news")) {
+                location.href = location.href.replace("test.cl/news", "lectortmo.com/viewer");
+            };
+            
+if (currentURL.match("test1.cl/news")) {
+                location.href = location.href.replace("test1.cl/news", "lectortmo.com/viewer");
+            };
+            
 // end of script
