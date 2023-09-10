@@ -46,8 +46,6 @@
 // @match https://*.animalslegacy.com/*
 // @match https://*.fitfooders.com/*
 // @match https://*.cocinarporelmundo.com/*
-// @match https://*.test.cl/*
-// @match https://*.test1.cl/*
 // ==/UserScript==
  
 if (window.top !== window.self) //Corre en 2do plano, SOLAMENTWE si tienes el navegador en 1er plano,
@@ -156,14 +154,6 @@ if (currentURL.match("fitfooders.com/news")) {
         
 if (currentURL.match("cocinarporelmundo.com/news")) {
                 location.href = location.href.replace("cocinarporelmundo.com/news", "lectortmo.com/viewer");
-            };
-            
-if (currentURL.match("test.cl/news")) {
-                location.href = location.href.replace("test.cl/news", "lectortmo.com/viewer");
-            };
-            
-if (currentURL.match("test1.cl/news")) {
-                location.href = location.href.replace("test1.cl/news", "lectortmo.com/viewer");
             };
             
 // end of script
