@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name TMO-Redirect-replace
 // @namespace https://github.com/URD0TH/TMO-Redirect-replace
-// @version 09092023205618
+// @version 09092023205619
 // @description Quiero Ver Mi MANGA!!!!
 // @author IRhoAias y URD0TH
 // @updateURL https://github.com/URD0TH/TMO-Redirect-replace/raw/main/Multi-script.meta.js
