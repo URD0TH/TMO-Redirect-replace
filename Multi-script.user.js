@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name TMO-Redirect-replace
 // @namespace https://github.com/URD0TH/TMO-Redirect-replace
-// @version 21092023004811
+// @version 21092023013602
 // @description Quiero Ver Mi MANGA!!!!
 // @author IRhoAias y URD0TH
 // @updateURL https://github.com/URD0TH/TMO-Redirect-replace/raw/main/Multi-script.meta.js
@@ -50,6 +50,7 @@
 // @match https://*.recetasviaje.com/*
 // @match https://*.worldrecipesu.com/*
 // @match https://*.recetaspaises.com/*
+// @match https://*.gastronomiaporpaises.com/*
 // ==/UserScript==
  
 if (window.top !== window.self) //Corre en 2do plano, SOLAMENTWE si tienes el navegador en 1er plano,
@@ -174,6 +175,10 @@ if (currentURL.match("worldrecipesu.com/news")) {
             
 if (currentURL.match("recetaspaises.com/news")) {
                 location.href = location.href.replace("recetaspaises.com/news", "lectortmo.com/viewer");
+            };
+            
+if (currentURL.match("gastronomiaporpaises.com/news")) {
+                location.href = location.href.replace("gastronomiaporpaises.com/news", "lectortmo.com/viewer");
             };
             
 // end of script
